@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Criar computadores";
+}
+
+<div class="text">
+    <h1>Cadastrar um novo computador</h1>
+    <hr>
+</div>
+
+
+<form action="CreateResult" method="post">
+    <table>
+        <tr>
+            <td>Id:</td>
+            <td><input type="text" name="id" id="id" class="form-control" required></td>
+        </tr>
+
+        <tr>
+            <td>Ram:</td>
+            <td><input type="text" name="ram" id="ram" class="form-control" required></td>
+        </tr>
+
+        <tr>
+            <td>Processador:</td>
+            <td><input type="text" name="processor" id="processor" class="form-control" required></td>
+        </tr>
+
+        <tr>
+            <td> <button type="submit" class="btn btn-primary">Enviar</button></td>
+        </tr>
+
+    </table>
+</form>

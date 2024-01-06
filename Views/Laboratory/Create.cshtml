@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Criar laboratórios";
+}
+
+<div class="text">
+    <h1>Cadastrar um novo laboratório</h1>
+    <hr>
+</div>
+
+<form action="CreateResult" method="post">
+    <table>
+        <tr>
+            <td>Id:</td>
+            <td><input type="text" name="id" id="id" class="form-control" required></td>
+        </tr>
+
+        <tr>
+            <td>Número:</td>
+            <td><input type="text" name="number" id="number" class="form-control" required></td>
+        </tr>
+
+        <tr>
+            <td>Nome:</td>
+            <td><input type="text" name="name" id="name" class="form-control" required></td>
+        </tr>
+
+        <tr>
+            <td>Bloco:</td>
+            <td><input type="text" name="block" id="block" class="form-control" required></td>
+        </tr>
+
+        <tr>
+            <td> <button type="submit" class="btn btn-primary">Enviar</button></td>
+        </tr>
+
+    </table>
+</form>
